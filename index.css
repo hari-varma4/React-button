@@ -1,0 +1,63 @@
+/* Write your code here. */
+.bg {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.h {
+  color: aliceblue;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+.bb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.y {
+  background-color: #eab308;
+  height: 10px;
+  width: 30px;
+  font-family: Roboto;
+}
+.w {
+  background-color: #ffffff;
+  height: 10px;
+  width: 30px;
+  font-family: Roboto;
+}
+.b {
+  background-color: #1d4ed8;
+  height: 10px;
+  width: 30px;
+  font-family: Roboto;
+}
+@media screen and (min-width: "768px") {
+  .bg {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+    height: 100vh;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: "768px") {
+  .bg {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+    height: 100vh;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+  }
+}
