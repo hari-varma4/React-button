@@ -1,7 +1,7 @@
 const Button = props => {
   //  Write your code here.
 
-{className,text}=props
+const {className,text}=props
 return <button className={`button ${className}`} >{text}</button>
 
 
